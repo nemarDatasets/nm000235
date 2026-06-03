@@ -1,0 +1,80 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Eva Guttmann-Flury": {
+      "orcid": "0000-0002-8241-1713"
+    },
+    "Xinjun Sheng": {},
+    "Xiangyang Zhu": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-025-04861-9",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000235",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000235",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Eye-BCI multimodal MI/ME dataset from Guttmann-Flury et al 2025",
+  "license": "CC0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "5.0 GB (64 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "A multimodal neuroimaging dataset combining EEG, eye-tracking, and high-speed video recordings from 31 healthy participants performing motor imagery and motor execution tasks. The dataset comprises 2,520 trials across 63 sessions with 64-channel EEG recordings at 1000 Hz sampling rate, focusing on left and right hand grasping imagery. This resource supports the development and benchmarking of brain-computer interface (BCI) systems for motor control applications.",
+  "methods_description": "EEG data were acquired using a Neuroscan Quik-Cap 65-channel system with SynAmps2 amplifier at 1000 Hz sampling rate. Sixty-four EEG channels were recorded using Ag/AgCl sensors in a standard 1005 montage, referenced to the right mastoid (M1) with ground at the forehead. Online high-pass filtering (10 s time constant) was applied. Participants performed 2-class motor imagery tasks (left and right hand grasping) with visual rectangle cues, 40 trials per session across up to 3 sessions. Trial duration was 7.5 s with 4 s imagery period following a 2 s cue presentation.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    }
+  ],
+  "source_hash": "4cf6faf1733135fc95ced07668facfe72b951c43a698cf08c39dd000b09e7ea7"
+}
